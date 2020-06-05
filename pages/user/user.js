@@ -6,6 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    isshare:0,
     userimg: "",
     nickname: "",
     jifen: 0,
@@ -192,5 +193,10 @@ Page({
       path: '/pages/mbook/mbook',
       imageUrl:'/imges/share.jpg'
     }
+  },
+  
+  //分享按钮未点击是点亮状态
+  share(e){
+    this.setData({isshare:1})
   },
 })
