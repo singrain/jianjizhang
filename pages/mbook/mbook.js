@@ -8,6 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    barstatus:"block",
     testdata:[],
     pageIndex: 0,
     // list是正式要请求的数据，应该是json格式。然后日期、每日收支和明细是相关联的
@@ -250,7 +251,7 @@ Page({
     }
   },
 
-  //获取缓存的测试数据，并存入testdata
+  //【测试用】获取缓存的测试数据，并存入testdata
   gettestdata(){
     wx.getStorage({
       key: "inputtestdata",
@@ -266,6 +267,8 @@ Page({
           key: 'testdata',
           success:res=>{
             console.log('缓存测试数据成功')
+            //如果有缓存的记账数据，隐藏noticebar（这个正式环境不能这么用，要判断用户是否收藏了）
+            this.setData({barstatus:"none"})
           }
         })
       }

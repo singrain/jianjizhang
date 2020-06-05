@@ -186,7 +186,11 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function() {
-
-  }
+  onShareAppMessage: function(res) {
+    return {
+      title: '简记账，美好生活从记账开始！',
+      path: '/pages/mbook/mbook',
+      imageUrl:'/imges/share.jpg'
+    }
+  },
 })

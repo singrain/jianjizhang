@@ -143,13 +143,14 @@
   </view> -->
 </view>
 <view class="banner">
-  <view class="banner_list flex-bet" bindtap="goyaoqing">
+  <view class="banner_list flex-bet">
     <view class="list_all flex-center">
       <image class="list_allimg" src="../../imges/feiji.png"></image>
       <view class="list_alltext">邀请有礼</view>
     </view>
     <view class="list_alllist flex-center">
-      <view class="banner_text">邀请好友,赚取积分</view>
+      <button  class="banner_text" open-type="share">邀请好友,一起记账</button>
+      <!-- <view class="banner_text">邀请好友,赚取积分</view> -->
       <image class="list_right" src="../../imges/huise@2x.png"></image>
     </view>
   </view>

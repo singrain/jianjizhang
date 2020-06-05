@@ -3,7 +3,7 @@
   <!-- <view class='setbox'>
     <image bindtap='setclick' src='/imges/set.png'></image>
   </view> -->
-  <wux-notice-bar mode="closable" content="点击·•·添加到我的小程序，使用更方便" />
+  <wux-notice-bar style="display:{{barstatus}}" mode="closable" content="点击·•·添加到我的小程序，使用更方便" />
   <view class="showbox" style='height: {{topHeight}}px;background: url({{homeimg}}) no-repeat;background-size: 100% 100%;color: {{homecolor}};'>
     <view class='showbox-top'>
       <view class='s-t-money'>
