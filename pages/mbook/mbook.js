@@ -247,7 +247,7 @@ Page({
     return {
       title: '简记账，美好生活从记账开始！',
       path: '/pages/mbook/mbook',
-      imageUrl:'/imges/share.jpg'
+      imageUrl:'/imges/share.png'
     }
   },
 
