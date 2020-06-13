@@ -7,8 +7,8 @@
 		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
-		"coverView": true,
 		"autoAudits": true,
+		"coverView": true,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
 		"checkInvalidKey": true,
@@ -21,10 +21,11 @@
 		},
 		"nodeModules": true,
 		"uglifyFileName": true,
-		"remoteDebugLogEnable": false
+		"remoteDebugLogEnable": false,
+		"useCompilerModule": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.1",
+	"libVersion": "2.11.2",
 	"appid": "wx97c5812b1781db55",
 	"projectname": "jizhangben",
 	"isGameTourist": false,

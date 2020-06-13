@@ -93,5 +93,23 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+
+  // 长按保存图片
+  saveimg(){
+    wx.saveImageToPhotosAlbum({
+      filePath:"/imges/qrcode.jpg",
+      success:res=> { 
+        console.log(res);
+        wx.showToast({
+          title: '已保存到相册',
+        })
+      },
+      fail:res=>{
+        console.log(res);
+      }
+    })
+  },
+
+
 })

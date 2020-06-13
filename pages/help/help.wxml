@@ -1,9 +1,14 @@
 <!--zh_zbkq/pages/my/bzzx/bzzx.wxml-->
-<view class="page__hd">
+<!-- <view class="page__hd"> -->
   <!-- <view class="page__title">WeUI</view> -->
-  <!-- <view class="page__desc">优惠券常见问题</view> -->
-</view>
-<view class="page__bd page__bd_spacing">
+  <view class="page__desc">
+  <text>长按保存图片，关注公众号</text>
+  <image class="image" src="../../imges/qrcode.jpg" bindlongtap="saveimg" ></image>
+  </view>
+  
+<!-- </view> -->
+
+<!-- <view class="page__bd page__bd_spacing">
   <view class="kind-list">
     <block wx:for="{{list}}" wx:key="id">
       <view class="kind-list__item">
@@ -18,7 +23,7 @@
       </view>
     </block>
   </view>
-</view>
+</view> -->
 <!-- <view class="page__ft">
   <image src="images/icon_footer.png" style="width: 84px; height: 19px;"></image>
 </view> -->
