@@ -189,7 +189,7 @@ Page({
    */
   onShareAppMessage: function(res) {
     return {
-      title: '简记账，美好生活从记账开始！',
+      title: '简记账，自律的人生从记账开始！',
       path: '/pages/mbook/mbook',
       imageUrl:'/imges/share.png'
     }
